@@ -38,6 +38,12 @@ pip install numpy matplotlib seaborn logomaker
 
 This repository is intended for educational purposes and the exploration of genetic algorithms and their applications in optimizing sequences and solving combinatorial problems like the TSP.
 
+Explanation of different notebooks: 
+- exercise_solutions contains solutions for exercises 2 & 3
+- exercise_4solutions contains the solution for exercise 4 (with 1500 generations and no convergence stop which had a seemingly indefinite runtime)
+- exercise_4_graphs_solutions contains one run of EA and MA used to generate graphs solving the TSP problem
+- exercises5_4_NC_final_results_nograph contains solutions to exercise 4 whith a convergence cutoff for all 10 runs
+-  
 ## License
 
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
