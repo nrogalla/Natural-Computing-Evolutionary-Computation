@@ -29,15 +29,15 @@ pip install numpy matplotlib seaborn logomaker
 - **Evolutionary Algorithm for the Traveling Salesman Problem**: Introduces a simple evolutionary algorithm to solve the Traveling Salesman Problem (TSP) and compares its performance with a memetic algorithm that combines a GA with local search optimization (2-opt algorithm).
 
 
-## Files and directories
+## Files 
 
 - **exercise4_graphs_solutions.ipynb**: This notebook presents the graphs for an evolutionary algorithm (EA) with no convergence stop and a memetic algorithm (MA) with convergence stop (due to high computational time)
 
-- **exercise4_solutions.ipynb**: Discusses Exercise 4 with an implementation for both EA and MA with no convergence stop. It also highlights an issue with the comparison function running indefinitely (due to no convergence stop).
+- **exercise4_solutions.ipynb**: Contains exercise 4 with an implementation for both EA and MA with no convergence stop. This notebook as an issue with the comparison function running indefinitely (due to no convergence stop for MA).
 
-- **exercise5_4_NC_finalresults_nographs.ipynb**: Contains the final results for Exercise 5.4, including 10 runs with convergence stop but without graphical representations.
+- **exercise5_4_NC_finalresults_nographs.ipynb**: Contains the final results for Exercise 5.4, including 10 runs with convergence stop for EA and MA but without graphical representations.
 
-- **exercise_solutions.ipynb**: Offers solutions for Exercises 2 to 3, providing comprehensive coverage of the exercises' requirements and solutions.
+- **exercise_solutions.ipynb**: solutions for Exercises 2 to 3, providing comprehensive coverage of the exercises' requirements and solutions.
 
 ## Running the Notebook
 
