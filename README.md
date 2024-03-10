@@ -28,6 +28,17 @@ pip install numpy matplotlib seaborn logomaker
 
 - **Evolutionary Algorithm for the Traveling Salesman Problem**: Introduces a simple evolutionary algorithm to solve the Traveling Salesman Problem (TSP) and compares its performance with a memetic algorithm that combines a GA with local search optimization (2-opt algorithm).
 
+
+## Files and directories
+
+- **exercise4_graphs_solutions.ipynb**: This notebook presents the graphs for an evolutionary algorithm (EA) with no convergence stop and a memetic algorithm (MA) with convergence stop (due to high computational time)
+
+- **exercise4_solutions.ipynb**: Discusses Exercise 4 with an implementation for both EA and MA with no convergence stop. It also highlights an issue with the comparison function running indefinitely (due to no convergence stop).
+
+- **exercise5_4_NC_finalresults_nographs.ipynb**: Contains the final results for Exercise 5.4, including 10 runs with convergence stop but without graphical representations.
+
+- **exercise_solutions.ipynb**: Offers solutions for Exercises 2 to 3, providing comprehensive coverage of the exercises' requirements and solutions.
+
 ## Running the Notebook
 
 1. Ensure all dependencies are installed.
@@ -38,12 +49,6 @@ pip install numpy matplotlib seaborn logomaker
 
 This repository is intended for educational purposes and the exploration of genetic algorithms and their applications in optimizing sequences and solving combinatorial problems like the TSP.
 
-Explanation of different notebooks: 
-- exercise_solutions contains solutions for exercises 2 & 3
-- exercise_4solutions contains the solution for exercise 4 (with 1500 generations and no convergence stop which had a seemingly indefinite runtime)
-- exercise_4_graphs_solutions contains one run of EA and MA used to generate graphs solving the TSP problem
-- exercises5_4_NC_final_results_nograph contains solutions to exercise 4 whith a convergence cutoff for all 10 runs
--  
 ## License
 
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
